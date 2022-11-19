@@ -43,3 +43,16 @@ body {
     /* max-width: 1320px; */
   }
 }
+
+main {
+  padding: 20px;
+  margin-top: 88px;
+  background-color: white;
+  /* height: 1500px; */
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 133px;
+  }
+}
