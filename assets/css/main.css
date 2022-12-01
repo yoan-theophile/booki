@@ -112,3 +112,50 @@ p {
   color: #1c46dc;
   background-color: white;
 }
+
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 38px;
+}
+
+.filter-elt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  border: 1px solid #a3b2ea;
+  border-radius: 29px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin: 2px 8px;
+}
+
+.filter-elt__icon {
+  color: #1c46dc;
+  background-color: #a3b2ea;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 20;
+}
+
+.filter-elt__label {
+  font-size: 18px;
+  font-weight: bold;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 16px;
+  margin: 0;
+}
