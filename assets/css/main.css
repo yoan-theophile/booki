@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+button {
+  font-family: "Raleway", sans-serif;
+}
+
 /* --------------------------------- LAYOUT --------------------------------- */
 
 .container,
@@ -49,10 +53,61 @@ main {
   margin-top: 88px;
   background-color: white;
   /* height: 1500px; */
+  /* min-height: 100vh; */
+}
+
+p {
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
   main {
     margin-top: 133px;
   }
+}
+
+/* search bar */
+.search-bar {
+  width: min(100%, 360px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-bar__icon {
+    background-color: #f1f1f1;
+    padding: 16px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.search-bar__input{
+  font-size: 20px;
+  font-weight: bold;
+  height: 44px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #f1f1f1;
+  border-bottom-color: #f1f1f1;
+}
+
+.search-bar__button {
+  font-size: 16px;
+  background-color: #1c46dc;
+  color: white;
+  padding: 14px 20px;
+  font-weight: bold;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.search-bar__button:hover {
+  color: #1c46dc;
+  background-color: white;
 }
